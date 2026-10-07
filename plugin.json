@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "photo-scan",
+  "version": "0.3.0",
+  "description": "Convert phone photographs of documents into clean, perspective-corrected multi-page scanned PDFs.",
+  "keywords": [
+    "scanner",
+    "photos",
+    "pdf",
+    "documents"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Photo Scan",
+        "shortDescription": "Turn document photos into scanned PDFs",
+        "longDescription": "Clean photographed documents, correct page perspective, and combine ordered photos into a PDF using a bundled Python scanner. Requires a host that can execute Python and access uploaded files.",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Turn these phone photos into a clean scanned PDF.",
+          "Combine these document photos into a black-and-white PDF."
+        ],
+        "brandColor": "#176B58"
+      }
+    }
+  }
+}
