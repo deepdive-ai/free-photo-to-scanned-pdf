@@ -2,6 +2,14 @@
 
 Turn ordered photographs of paper documents into cleaned, perspective-corrected PDFs. Processing runs on your computer; no API key, paid scanning service, or processing server is required.
 
+## Use online — no installation
+
+Open **[Photo Scan](https://deepdive-ai.github.io/photo-scan/)** in your browser. Choose photos, review or adjust the crop corners, choose color/grayscale/black-and-white, and download your scanned PDF. Multiple photos become ordered PDF pages.
+
+Photos are processed entirely on your device and are not uploaded to a server. No account, API key, or payment is needed. The website runs on GitHub Pages with no paid backend. Browser memory limits apply; use JPEG/PNG if your phone exports HEIC. The PDF contains scanned images, not searchable OCR text.
+
+The static website lives in `docs/`. Preview it with `python3 -m http.server 8765 --directory docs`.
+
 ## Desktop app
 
 Requires Python 3.10+ with Tkinter. Download/extract the release archive, open a terminal in the extracted folder, and run:
