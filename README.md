@@ -1,4 +1,6 @@
-# Photo Scan
+# Free Photo to Scanned PDF (color/grayscale)
+
+**[Open the free online tool](https://deepdive-ai.github.io/photo-scan/)** — no installation, signup, email, or card details. Photos stay on your device.
 
 Turn ordered photographs of paper documents into cleaned, perspective-corrected PDFs. Processing runs on your computer; no API key, paid scanning service, or processing server is required.
 
