@@ -1,6 +1,6 @@
 # Free Photo to Scanned PDF (color/grayscale)
 
-**[Open the free online tool](https://deepdive-ai.github.io/photo-scan/)**
+**[Open the free online tool](https://deepdive-ai.github.io/free-photo-to-scanned-pdf/)**
 
 Turn document photos into one scanned PDF, directly in your browser. No installation, signup, email, card details, or payment required. Photos stay on your device and are not uploaded to a processing server.
 
